@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Text">
+        <item name="android:textColor">?attr/main_text_color</item>
+        <item name="fontFamily">@font/roboto</item>
+    </style>
+
+    <style name="Header" parent="Text">
+        <item name="android:textSize">@dimen/text_28</item>
+    </style>
+
+    <style name="Title" parent="Text">
+        <item name="android:textSize">@dimen/text_16</item>
+    </style>
+
+    <style name="SmallText" parent="Text">
+        <item name="android:textSize">@dimen/text_12</item>
+    </style>
+
+    <style name="LinkText" parent="SmallText">
+        <item name="android:textColor">?attr/link_text_color</item>
+    </style>
+
+    <style name="EditText" parent="Text">
+        <item name="android:textColor">?attr/main_text_color</item>
+        <item name="android:textSize">@dimen/text_14</item>
+        <item name="android:textColorHint">?attr/hint_text_color</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/edit_text_background</item>
+        <item name="android:paddingTop">@dimen/padding_10</item>
+        <item name="android:paddingBottom">@dimen/padding_10</item>
+        <item name="android:paddingStart">@dimen/padding_16</item>
+        <item name="android:paddingEnd">@dimen/padding_16</item>
+    </style>
+
+    <style name="BottomNavStyle" parent="Widget.Design.BottomNavigationView">
+        <item name="android:background">?attr/background_additional_color</item>
+        <item name="itemTextColor">@drawable/nav_item_color</item>
+        <item name="itemIconTint">@drawable/nav_item_color</item>
+        <item name="fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/text_12</item>
+    </style>
+
+    <style name="ButtonMain">
+        <item name="android:backgroundTint">?attr/background_main_button</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">?attr/main_text_color</item>
+        <item name="android:textSize">@dimen/text_14</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

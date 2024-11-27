@@ -1,9 +1,21 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.EffectiveMobileTestTask" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-    </style>
+<resources>
+    <attr name="background_color"/>
+    <attr name="background_additional_color"/>
+    <attr name="background_edit_text"/>
+    <attr name="background_main_button"/>
+    <attr name="main_text_color"/>
+    <attr name="support_text_color"/>
+    <attr name="hint_text_color"/>
+    <attr name="link_text_color"/>
 
-    <style name="Theme.EffectiveMobileTestTask" parent="Base.Theme.EffectiveMobileTestTask" />
+    <style name="Base.Theme.EffectiveMobileTest" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="background_color">@color/black</item>
+        <item name="background_additional_color">@color/dark_gray</item>
+        <item name="background_edit_text">@color/light_gray</item>
+        <item name="background_main_button">@color/green</item>
+        <item name="main_text_color">@color/white</item>
+        <item name="support_text_color">@color/white_transp_70</item>
+        <item name="hint_text_color">@color/white_transp_50</item>
+        <item name="link_text_color">@color/green</item>
+    </style>
 </resources>

@@ -1,3 +1,25 @@
 <resources>
-    <string name="app_name">EffectiveMobileTestTask</string>
+    <string name="app_name">EffectiveMobileTest</string>
+    <string name="main_fragment">Main</string>
+    <string name="favorites">Favorites</string>
+    <string name="account">Account</string>
+    <string name="sign_up">SignUp</string>
+    <string name="sign_in">SignIn</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="email_example" translatable="false">example@gmail.com</string>
+    <string name="password">Password</string>
+    <string name="password_enter">Enter password</string>
+    <string name="password_repeat">Repeat password</string>
+    <string name="account_already">Already have an account?</string>
+    <string name="login">Login</string>
+    <string name="account_dont_have">Don\'t have an account?</string>
+    <string name="password_forgot">Forgot your password</string>
+    <string name="password_reenter">Enter your password again</string>
+    <string name="email_empty">Fill in your email</string>
+    <string name="password_empty">Fill in the password</string>
+    <string name="password_repetition_empty">Fill in password repetition</string>
+    <string name="password_shot">Password is too short</string>
+    <string name="password_must_match">Password and password confirmation must match</string>
+    <string name="uncnown_exception">Uncnown exception</string>
+    <string name="login_error">Login error. Check that your Email and Password are correct.</string>
 </resources>

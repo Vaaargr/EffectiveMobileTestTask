@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EffectiveMobileTest</string>
+    <string name="main_fragment">Главная</string>
+    <string name="favorites">Избранное</string>
+    <string name="account">Аккаунт</string>
+    <string name="sign_up">Регистрация</string>
+    <string name="sign_in">Вход</string>
+    <string name="password">Пароль</string>
+    <string name="password_enter">Введите пароль</string>
+    <string name="password_repeat">Повторите пароль</string>
+    <string name="account_already">Уже есть аккаунт?</string>
+    <string name="login">Войти</string>
+    <string name="account_dont_have">Нету аккаунта?</string>
+    <string name="password_forgot">Забыл пароль</string>
+    <string name="password_reenter">Введите пароль ещё раз</string>
+    <string name="email_empty">Заполните email</string>
+    <string name="password_empty">Заполните пароль</string>
+    <string name="password_repetition_empty">Заполните повторение пароля</string>
+    <string name="password_shot">Пароль слишком короткий</string>
+    <string name="password_must_match">Пароль и подтверждение пароля должны совпадать</string>
+    <string name="uncnown_exception">Неизвестная ошибка</string>
+    <string name="login_error">Ошибка входа. Проверте правильность Email и пароля.</string>
+</resources>

@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.gmsPlugin)
 }
 
 android {
@@ -33,6 +34,10 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -45,4 +50,27 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    //Koin
+    implementation(libs.koin.android)
+
+    //Modules
+    implementation(project(":data"))
+    implementation(project(":domain"))
+
+    //Navigation
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
+
+    //Fragment
+    implementation(libs.androidx.fragment.ktx)
+
+    //Firebase-bom
+    implementation(platform(libs.firbase.bom))
+
+    //Firebase-authorisation
+    implementation(libs.firbase.auth)
+
+    //Coroutines
+    implementation(libs.kotlinx.coroutines)
 }
